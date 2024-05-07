@@ -1,0 +1,21 @@
+.context-menu{
+    background: #000;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    padding: 15px;
+    border-radius: 10px;
+}
+.context-menu-inner{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.context-sub{
+    display: none;
+}
+.context-menu-inner:hover .context-sub{
+    display: block;
+}

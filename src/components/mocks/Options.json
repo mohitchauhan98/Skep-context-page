@@ -1,0 +1,19 @@
+[
+    {
+        "name" : "Add Folder"
+    },
+    {
+        "name" : "Add File",
+        "suboptions" : [
+            {
+                "name" : "Word"
+            },
+            {
+                "name" : "Excel"
+            },
+            {
+                "name" : "Power Point"
+            }
+        ]
+    }
+]

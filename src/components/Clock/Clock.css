@@ -1,0 +1,13 @@
+.clock-box{
+    margin-top: 50px;
+    text-align: center;
+}
+.clock{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+}
+.clock-dates{
+    font-size: 14px;
+    font-weight: 400;
+}

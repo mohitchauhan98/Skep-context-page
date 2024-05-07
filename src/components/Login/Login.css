@@ -1,0 +1,70 @@
+.login-page{
+    height: 100vh;
+    background-image:url('../../assets/Wallpaper.png') , url('../../assets/Wallpaper.png');
+    background-size: 50% 100%, 50% 100%;
+}
+.login-page-box{
+    width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 3rem;
+    height: 500px;
+}
+.login-logo{
+    margin-top: 50px;
+    text-align: center;
+}
+.login-logo img{
+    width:70px;
+}
+.lp-input-container{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.login-user-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.login-box{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-wrap{
+    margin-top: 20px;
+    display: grid;
+    row-gap: 20px;
+}
+.email-input{
+    width: 230px;
+    border: none;
+    background: #979797;
+    outline: none;
+    height: 15px;
+    padding: 10px;
+    border-radius:2rem;
+}
+.checkbox-container{
+    display: flex;
+}
+.text-box{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.login-button{
+    border: none;
+    background:#000;
+    outline: none;
+    padding: 5px;
+    border-radius:2rem;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
